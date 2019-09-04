@@ -1,0 +1,21 @@
+<skincare-organiser>
+	<moisturisers>
+		<facial-moisturisers>
+			<Neutrogena-Hydro-Boost />
+			<Curology-Facial-Moisturiser />
+		</facial-moisturisers>
+		<body-moisturisers>
+			<Victorias-Secret-Bombshell />
+			<Vaseline-Body-Care />
+		</body-moisturisers>
+	</moisturisers>
+	<haircare>
+		<biotin-tablets />
+		<Balmain-Leave-In-Treatment />
+	</haircare>
+	<lipcare>
+		<Burts-Bees-Lip-Balm />
+		<Vaseline-Lip-Mask />
+		<Lip-Butter />
+	</lipcare>
+</skincare-organiser>
