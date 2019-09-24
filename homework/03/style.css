@@ -1,6 +1,6 @@
 		h1  {
 			color:#00A9BE;
-			font-family:Bludhaven;
+			font-family:Palatino;
 			font-size:300%;
 			text-align:center;
 			background-color:#lightblue;
@@ -10,7 +10,7 @@
 		}
 
 		hr {
-		 border-top: 5px dotted #5EBAC2;
+		 border-top: 5px dotted white;
 
 		
 		}
@@ -23,17 +23,19 @@
 		p {
 			font-family:"Avenir";
 			text-align: center;	
-			color:#5EBAC2;
+			color:#4169E1;
 
 		}
 		body {
-			background-color: #E6FEFF;
+			background-color: lightblue;
 			position: center;
 			text-align: center;
 		}	
 
 		img{
 			position: center;
+			padding:1px;
+   			border:10px solid white;
 		}
 
 		.itinerary{
