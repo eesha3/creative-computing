@@ -1,0 +1,32 @@
+h1  {
+			color: black;
+			font-family:"Baskerville";
+			margin: 0;
+		}
+		h2 {
+			font-family:"Baskerville";
+			margin: 0;
+			text-align: center;
+			border: solid 5px black;
+		}
+		p {
+			font-family:"Baskerville";
+		}
+		body {
+			background-color: lightgray;
+		}
+
+		.address {
+			color: chocolate;
+		}
+
+		.header-title{
+			font-size: 100px;
+		}
+
+		img{
+			position: relative;
+			left: 50%;
+			width: 100px;
+			margin-left: -50px;
+		}

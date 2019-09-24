@@ -1,0 +1,50 @@
+		h1  {
+			color:#00A9BE;
+			font-family:Bludhaven;
+			font-size:300%;
+			text-align:center;
+			background-color:#lightblue;
+			padding-left:60px;
+			padding-right:60px;
+			text-decoration:underline;
+		}
+
+		hr {
+		 border-top: 5px dotted #5EBAC2;
+
+		
+		}
+		h2 {
+			font-family:"Avenir";
+			margin: 0;
+			text-align: center;
+			color:#00A9BE;
+		}
+		p {
+			font-family:"Avenir";
+			text-align: center;	
+			color:#5EBAC2;
+
+		}
+		body {
+			background-color: #E6FEFF;
+			position: center;
+			text-align: center;
+		}	
+
+		img{
+			position: center;
+		}
+
+		.itinerary{
+			text-align: left;
+			color:#005C76;
+			font-family:"Avenir";
+		}
+
+		.itineraryimg {
+  		border-radius: 50%;
+  		position: center;
+}
+
+		
