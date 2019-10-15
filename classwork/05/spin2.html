@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style>
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.blue {
+	width: 50vmin;
+	height: 50vmin;
+	background-color: #308090;
+/*long way of animating*/
+	/*animation-name: spin;*/
+	/*animation-duration: 2s;*/
+/*short way of animating*/
+	animation: spin 2s infinite linear;
+}
+
+.wrapper {
+	animation: slide 2s infinite alternate;
+}
+
+@keyframes spin {
+ 	to{
+ 		transform: rotate(360deg);
+ 	}
+}
+@keyframes slide {
+ 	to{
+ 		transform: translate(400px,0px);
+ 	}
+
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+<div class="blue"></div>
+</div>
+
+</body>
+</html>

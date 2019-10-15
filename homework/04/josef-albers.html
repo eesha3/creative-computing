@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style>
+
+html, body {
+	height: 100%;
+	animation: color1 4s infinite ease-out;
+
+}
+
+body {
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	
+}
+
+div {
+	float: top;
+	margin-left: -90px;
+	transition: all 1s;
+}
+
+.band1 {
+	background-color: #e76653;
+	width: 450px;
+	height: 12.5%;
+	transform: rotate(-5deg);
+	animation: slide1 1s 3.5s ease-out;
+}	
+
+.band2 {
+	background-color: #d73727;
+	width: 450px;
+	height: 12.5%;
+	transform: rotate(3deg); 
+	margin-left: 20px;
+	margin-bottom: 30px;
+	margin-top: -20px;
+	animation: slide1 1s 3s ease-out;
+}
+
+.band3 {
+	background-color: #d03d43;
+	width: 450px;
+	height: 12.5%;
+	transform: rotate(-2deg);
+	margin-left: 70px;
+	animation: slide1 1s 2.5s ease-out;
+}
+
+.band4 {
+	background-color: #9a1c1f;
+	width: 450px;
+	height: 12.5%;
+	transform: rotate(-4deg);
+	margin-top: -40px;
+	margin-left: -150px;
+	animation: slide1 1s 2s ease-out;
+}
+
+.band5 {
+	background-color: #e36a71;
+	width: 450px;
+	height: 12.5%;
+	transform: rotate(10deg);
+	margin-left: 110px;
+	animation: slide1 1s 1.5s ease-out;
+}
+
+.band6 {
+	background-color: #923444;
+	width: 450px;
+	height: 12.5%;
+	transform: rotate(-0.2deg);
+	margin-left: 180px;
+	margin-top: -15px;
+	animation: slide1 1s 1s ease-out;
+}
+
+.band7 {
+	background-color: #8f182c;
+	width: 450px;
+	height: 12.5%;
+	transform: rotate(5deg);
+	margin-top: -20px;
+	animation: slide1 1s ease-out;
+}
+
+.band8 {
+	background-color: #db3825;
+	width: 450px;
+	height: 12.5%;
+	margin-top: -30px;
+	margin-left: 80px;
+	animation: slide1 1s 0.5s ease-out;
+}
+
+div:hover {
+  width: 300px;
+  background-color: orange;
+}
+
+
+@keyframes slide1 {
+ 0% {
+ 	transform: translate(0,-100vh);
+ }
+ 
+100% {
+ 	transform: initial;
+ }
+}
+
+@keyframes spin {
+ 	to{
+ 		transform: rotate(360deg);
+ 	}
+}
+
+@keyframes color1 {
+  0% {
+    background-color: #DB9788;
+  }
+  25% {
+    background-color: #FFE5DA;
+  }
+  50% {
+    background-color: #53B9C8;
+  }
+  75% {
+    background-color: #BEFBFF;
+  }
+  100% {
+    background-color: #448089;
+  }
+}
+
+
+</style>
+</head>
+<body>
+<div class="band1"></div>
+<div class="band2"></div>
+<div class="band3"></div>
+<div class="band4"></div>
+<div class="band5"></div>
+<div class="band6"></div>
+<div class="band8"></div>
+<div class="band7"></div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style>
+
+body {
+		margin: 0;
+}
+
+div {
+	width: 50vw;
+	height: 50vh;
+}
+.first {
+	background-color: #308090;
+	animation: slide1 4s infinite ease-out;
+}
+
+.second {
+	background-color: lightblue;
+	animation: slide2 4s infinite ease-out;
+}
+
+@keyframes slide1 {
+ 0% {
+ }
+ 25% {
+ 	transform: translate(50vw,0);
+ }
+ 50% {
+ 	transform: initial;
+ }
+100% {
+ 	transform: initial;
+ }
+}
+
+@keyframes slide2 {
+ 0% {
+ 	transform: translate(50vw,0);
+ }
+ 25% {
+ 	transform: initial;
+ }
+ 50% {
+ 	transform: translate(50vw,0);
+ }
+100% {
+ 	transform: translate(50vw,0);
+ }
+}
+
+</style>
+</head>
+<body>
+
+<div class="first"></div>
+<div class="second"></div>
+</body>
+</html>
