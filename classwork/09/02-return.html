@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+
+// #2 functions can turn into values, to be used after they've finished running
+
+function randomColor() {
+ 	var hue = Math.floor(Math.random() * 360);
+    var saturation = Math.floor(Math.random() * 100);
+    var lightness = Math.floor(Math.random() * 100);
+    var color = "hsl(" + hue + ", " + saturation + "%, " + lightness + "%)";
+    // just like how Math.random() turns into a number, this will turn into a string
+	return color; //turns into
+}
+document.body.style.backgroundColor = randomColor();
+
+</script>
+</body>
+</html>

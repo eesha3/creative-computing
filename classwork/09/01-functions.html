@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+	
+	// #1 functions can store code to be run any time in the future
+function printTime() {
+// whatever I type here is inside the function
+	var d = new Date();
+	var time = d.toLocaleTimeString();
+	console.log(time);
+}
+printTime();
+document.onmousemove = printTime;
+
+</script>
+</body>
+</html>
