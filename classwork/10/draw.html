@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style>
+
+div {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background-color: black;
+	margin-left: -25px;
+	margin-top: -25px;
+	border-radius: 15px;
+}	
+</style>
+</head>
+<body>
+<script>
+	
+// var color = 0;
+
+document.onmousemove = function (event) {
+	var div = document.createElement("div");
+	var hue = Math.floor(Math.random() * 50);
+    var saturation = (Math.floor(Math.random() * 100));
+    var lightness = Math.floor(Math.random() * 100);
+	div.style.top = event.y + "px";
+	div.style.left = event.x + "px";
+	div.style.backgroundColor = "hsl(" + hue + ", " + saturation + "%, " + lightness + "%)";
+	//div.style.backgroundColor = "hsl(" + color + ", 100%, 50%)";
+    document.body.appendChild(div);
+    // color = color +1
+}
+
+
+
+</script>
+</body>
+</html>

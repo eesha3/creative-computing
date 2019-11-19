@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+
+
+function bgChange () {
+	var red = 255;
+	var green = 0;
+	var blue = 0;
+	if (red = 255, green = 0, blue = 0) {
+		green + 127;
+	}
+
+	if (red = 255, blue = 0, green < 255) {
+		green + 128;
+	}
+
+	if (red = 255, green = 255, blue = 0) {
+		red - 128;
+	}
+
+	if (red = 255, green = 255, blue = 0) {
+		red - 128;
+	}
+
+	if (red < 255, green = 255, blue = 0) {
+		red - 127;
+	}
+
+	if (red = 0, green = 255, blue = 0) {
+		blue + 127;
+	}
+
+	if (red = 0, green = 255, blue < 255) {
+		blue + 128;
+	}
+
+	if (red = 0, green = 255, blue = 255) {
+		green - 128;
+	}
+
+	if (red = 0, green < 255, blue = 255) {
+		green - 127;
+	}
+
+	if (red = 0, green = 0, blue = 255) {
+		red + 127;
+	}
+
+	if (red < 255, green = 0, blue = 255) {
+		red + 128;
+	}
+
+	if (red = 255, green = 0, blue = 255) {
+		blue - 128;
+	}
+
+	document.body.style.backgroundColor = "rgb("+ red +","+ green +","+ blue +")";
+}
+setInterval(bgChange, 2000);
+
+</script>
+</body>
+</html>
