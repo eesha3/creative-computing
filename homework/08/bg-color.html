@@ -5,16 +5,14 @@
 </head>
 <body>
 <script>
-	var red = 255;
-	var green = 0;
-	var blue = 0;
+	var color = 0;
 
 function bgChange () {
-	document.body.style.backgroundColor = "rgb("+ red +","+ green +","+ blue +")";
-	green = green + 1;
+	color = color + 1;
+	document.body.style.backgroundColor = "hsl("+ color +", 100%,70%)";
 }
 
-setInterval(bgChange, 50);
+setInterval(bgChange, 30);
 
 </script>
 </body>
