@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+
+var image = "https://robbykraft.github.io/CreativeComputing/earth-map.svg";
+
+// load an image from the internet, when it's done append it to the 
+fetch(image).then(function(data){ return data.text(); })
+	.then(function(svg){ 
+		document.body.insertAdjacentHTML("beforeend", svg);
+		console.log(svg);
+	})
+
+</script>
+</body>
+</html>

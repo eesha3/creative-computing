@@ -1,0 +1,13 @@
+{
+	"key": "value",
+	"name": "eesha",
+	"color": "#99CCFF",
+	"lat": 40,
+	"lon": -74,
+	"location": {
+		"lat": 40,
+		"lon": -74
+	},
+	"water": true
+}
+
